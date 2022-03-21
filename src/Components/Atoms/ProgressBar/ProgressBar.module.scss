@@ -1,0 +1,9 @@
+.progress {
+  &Container {
+    background-color: rgba(196, 194, 194, 0.62);
+    width: 100%;
+  }
+  &Bar {
+    transition: width 2.2s ease-out;
+  }
+}
